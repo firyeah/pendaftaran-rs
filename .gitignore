@@ -1,0 +1,116 @@
+# Pendaftaran RS .gitignore
+
+# PHP
+*.php~
+*.phtml
+*.shtml
+.php_cs
+.php_cs.cache
+
+# IDE
+.vscode/
+.idea/
+.sublime-workspace
+.sublime-project
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Composer
+vendor/
+composer.lock
+
+# Logs
+*.log
+logs/
+error.log
+access.log
+
+# Cache
+cache/
+tmp/
+temp/
+*.tmp
+
+# Database backups
+*.sql~
+database/backups/
+
+# Node (if using npm/webpack)
+node_modules/
+dist/
+npm-debug.log
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+*~
+*.old
+
+# Config dengan data sensitif
+config/database.local.php
+config/.env
+
+# Build artifacts
+build/
+
+# Testing
+.phpunit.result.cache
+coverage/
+tests/coverage/
+
+# Project-specific
+debug/
+dumps/
+uploads/
+public/uploads/
+var/
+
+# VS Code
+.vscode/settings.json
+.vscode/extensions.json
+
+# PhpStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# NetBeans
+nbproject/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# IntelliJ
+.IntelliJIdea*
+*.iml
+.idea/
+
+# Windows
+desktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
